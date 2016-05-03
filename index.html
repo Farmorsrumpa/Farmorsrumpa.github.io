@@ -4,27 +4,54 @@
     <meta charset="UTF-8">
     <title>Pizza Hatt</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/unslider.css">
+    <!--<link rel="stylesheet" href="css/unslider-dots.css">-->
 </head>
 <body>
-    <div id="container">
-        <header>
-            <h1>Pizza Hatt</h1>
+   <div id="top">
+        <header class="container">
+            <div class="my-slider">
+                <ul>
+                    <li><img src="img/testbild.jpg" alt="test"> </li>
+                    <li><img src="img/testbild.jpg" alt="test"> </li>
+                    <li><img src="img/testbild.jpg" alt="test"> </li>
+                    <li><img src="img/testbild.jpg" alt="test"> </li>
+                </ul>
+            </div>
         </header>
+   </div>
+        <div class="container">
 
         <nav>
-            <ul>
-                <li><a href="#">Hem</a></li>
-                <li><a href="#">Hem</a></li>
-                <li><a href="#">Hem</a></li>
-                <li><a href="#">Hem</a></li>
+            <ul id="ulnav">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="familj.html">För barn och familjer</a></li>
             </ul>
         </nav>
     <aside>
 
     </aside>
-
+    <section>
+        <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit ipsum neque, vitae ornare orci malesuada id. In vulputate est id quam vehicula faucibus. Nunc tristique consequat quam. Curabitur interdum, erat id egestas mattis, diam mauris vestibulum erat, ac suscipit justo est a dui. Fusce semper, diam id efficitur faucibus, metus quam scelerisque purus, eu condimentum lectus neque eu tortor. Integer libero dui, posuere non tortor eu, egestas accumsan lorem. Donec ac ex sit amet orci ultricies ultricies. Suspendisse non dictum ex, ac rutrum lorem. </p>
+        </article>
+    </section>
 
     </div>
+
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/unslider.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider({
+                arrows:false,
+                autoplay:true,
+                nav:false,
+            });
+        });
+    </script>
 
 </body>
 </html>
