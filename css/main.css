@@ -3,6 +3,7 @@ body
     background-color: #4C4F4C;
     margin:0px;
     height: 1000px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .container
@@ -97,4 +98,8 @@ article
 p
 {
     font-family: 'Montserrat', sans-serif;
+}
+.karta
+{
+    padding-left: 2px;
 }
