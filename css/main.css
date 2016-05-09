@@ -23,7 +23,7 @@ nav
 {
     width: 960px;
     height: 35px;
-    background: #E81A00;
+    background: #FFD638;
 }
 li
 {
@@ -46,9 +46,9 @@ aside
     width:239px ;
     height: 748px;
     border-left: solid;
-    border-top: solid;
+
     border-width: 1px;
-    border-top-width: 2px;
+
 }
 section
 {
@@ -58,24 +58,25 @@ section
     height: 748px;
     background: #4C4F4C;
     border-right: solid;
-    border-top: solid;
     border-right-width: 1px;
-    border-top-width: 2px;
+
 
 }
 a
 {
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     color: black;
-    border: solid;
-    border-width: 2px;
+
+
     padding: 4px 9px 4px 8px;
 }
 a:hover
 {
     color: #4C4F4C;
+    background-color: #E8C333;
+    border-radius: 2px;
 }
 #ulnav
 {
@@ -92,4 +93,8 @@ article
     width: 100%;
     padding: 0px;
     margin:0px;
+}
+p
+{
+    font-family: 'Montserrat', sans-serif;
 }
