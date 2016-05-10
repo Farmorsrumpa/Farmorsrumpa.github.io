@@ -1,6 +1,6 @@
 body
 {
-    background-color: #4C4F4C;
+    background-color: whitesmoke;
     margin:0px;
     height: 1000px;
     font-family: 'Montserrat', sans-serif;
@@ -9,10 +9,7 @@ body
 .container
 {
     width: 960px;
-    background-color: #9EB4F7;
     margin: 0 auto;
-
-
 }
 header
 {
@@ -25,6 +22,7 @@ nav
     width: 960px;
     height: 35px;
     background: #FFD638;
+    border-radius: 5px;
 }
 li
 {
@@ -41,7 +39,7 @@ ul{
 }
 aside
 {
-    background-color: #4C4F4C;
+    background-color: whitesmoke;
     float: right;
     display: inline-block;
     width:239px ;
@@ -57,7 +55,7 @@ section
     width: 719px;
     display: inline-block;
     height: 748px;
-    background: #4C4F4C;
+    background: whitesmoke;
     border-right: solid;
     border-right-width: 1px;
 
@@ -85,7 +83,7 @@ a:hover
 }
 article
 {
-    padding-left: 15px;
+
 }
 #top
 {
@@ -98,8 +96,45 @@ article
 p
 {
     font-family: 'Montserrat', sans-serif;
+    color:black;
+    background-color: #FFD638;
+    padding:5px;
+    margin-right: 4px;
 }
 .karta
 {
     padding-left: 2px;
+}
+.mrhatt
+{
+    height:32%;
+    width: 32%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 100px;
+}
+.center
+{
+    margin: 0 auto;
+    text-align: center;
+
+}
+button
+{
+    float: right;
+    height: 100%;
+    width: 90px;
+border-radius: 4px;
+}
+.avatar
+{
+    float: right;
+    height: 100%;
+
+}
+.oppetider
+{
+    background-color: #FFD638;
+    margin-left: 4px;
+    padding: 4px;
 }
