@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Hatt</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/unslider.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--<link rel="stylesheet" href="css/unslider-dots.css">-->
+    <link rel="stylesheet" href="css/indexcss.css">
+</head>
+<body>
+<div id="top">
+    <header class="container">
+        <div class="my-slider">
+            <ul>
+                <li><img src="img/pizza1.jpg" alt="test"> </li>
+                <li><img src="img/pizza2.jpg" alt="test"> </li
+            </ul>
+        </div>
+    </header>
+</div>
+<div class="container">
+
+    <nav>
+        <ul id="ulnav">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="familj.html">För barn och familjer</a></li>
+        </ul>
+
+        <img class="avatar" src="img/boy-512.png" alt="avatar">
+        <button>Logga In</button>
+    </nav>
+
+    <section>
+        <article>
+
+
+        </article>
+
+
+
+    </section>
+    <aside>
+        <h2 class="karta">Hitta närmaste resturang!</h2>
+        <img class="karta" src="img/World_map_2004_CIA_large_1.7m_whitespace_removed.jpg" alt="karta">
+
+        <div class="oppetider">
+            <h2>Öppettider</h2>
+            <h4>Mån-Fre</h4>
+            <h4>09:00-23:00</h4>
+            <h4>Lör: 09:00-01:00</h4>
+            <h4>Sön 10:00-22:00</h4>
+        </div>
+    </aside>
+</div>
+
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/unslider.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        $('.my-slider').unslider({
+            arrows:false,
+            autoplay:true,
+            nav:false,
+            infinite:true,
+        });
+    });
+</script>
+
+</body>
+</html>

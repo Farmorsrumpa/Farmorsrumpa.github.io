@@ -10,6 +10,7 @@ body
 {
     width: 960px;
     margin: 0 auto;
+    height: 990px;
 }
 header
 {
@@ -39,25 +40,23 @@ ul{
 }
 aside
 {
-    background-color: whitesmoke;
+    background-color: lightgray;
     float: left;
     display: inline-block;
-    width:239px ;
+    width:248px ;
     height: 748px;
-    border-left: solid;
 
-    border-width: 1px;
 
 }
 section
 {
     float: left;
-    width: 719px;
+    width: 712px;
     display: inline-block;
-    height: 748px;
-    background: whitesmoke;
-    border-right: solid;
-    border-right-width: 1px;
+    height: 749px;
+    background: lightgrey;
+
+
 
 
 }
@@ -112,7 +111,8 @@ button
 .oppetider
   {
       background-color: #FFD638;
-      margin-left: 4px;
+      margin-left: 2px;
+      margin-right: 8px;
       padding: 4px;
       border-radius: 4px;
   }
