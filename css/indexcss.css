@@ -1,0 +1,25 @@
+.mrhatt
+{
+    height:32%;
+    width: 32%;
+    margin: 0 auto ;
+    display: block;
+    border-radius: 4px;
+    background-color: #FFD638;
+    padding: 8px;
+}
+.center
+{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFD638;
+    padding: 8px;
+
+}
+
+
+
+#historia
+{
+    padding-top: 100px;
+}
