@@ -44,8 +44,8 @@ aside
     float: left;
     display: inline-block;
     width:248px ;
-    height: 748px;
-
+    height: 100%;
+    margin-bottom: 15px;
 
 }
 section
@@ -53,9 +53,9 @@ section
     float: left;
     width: 712px;
     display: inline-block;
-    height: 749px;
+    height: 100%;
     background: lightgrey;
-
+    margin-bottom: 15px;
 }
 a
 {
@@ -98,7 +98,7 @@ p
     margin-right: 4px;
     border-radius: 4px;
 }
-button
+.loginbutton
  {
      float: right;
      height: 100%;
@@ -132,6 +132,7 @@ button
     height: 100%;
     margin-right: 8px;
     margin-top: 4px;
+    padding-bottom: 4px;
 
 
 }
@@ -144,5 +145,6 @@ button
 .kartdiv{
     background-color: #FFD638;
     margin-right: 8px;
+    border-radius: 4px;
 }
 

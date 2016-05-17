@@ -1,0 +1,23 @@
+input
+{
+    margin: 5px;
+}
+form
+{
+    margin: 16px 150px 10px 150px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #FFD638;
+    padding: 10px;
+
+}
+textarea
+{
+    resize: none;
+}
+.formbutton
+{
+
+
+    text-align: center;
+}

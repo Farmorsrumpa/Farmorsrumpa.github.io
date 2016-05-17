@@ -1,0 +1,23 @@
+.meny
+{
+    display: inline-block;
+    background-color: darkgray;
+    margin: 16px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+
+}
+.meny img
+{
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    float: left;
+
+}
+.meny p
+ {
+    display: inline;
+    float: right;
+    margin: 10px;
+ }
