@@ -1,0 +1,20 @@
+.divklass
+{
+    background-color: #FFD638;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-top: 16px;
+    display: inline-block;
+}
+.divklass img
+{
+    height: 50%;
+    width: 50%;
+    padding-left: 4px;
+
+}
+.divklass h2
+{
+    padding-left: 4px;
+}
+
