@@ -181,7 +181,8 @@ html{
     padding-left: 4px;
     text-align: center;
 }
-@media(max-width: 1224px) {
+@media screen and(max-width: 4in) {
+
 
     .container
     {
@@ -192,9 +193,7 @@ html{
     }
     aside{
         display: none;
-
     }
-
     #top{
         display: none;
     }
