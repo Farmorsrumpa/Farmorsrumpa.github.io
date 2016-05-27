@@ -181,7 +181,7 @@ html{
     padding-left: 4px;
     text-align: center;
 }
-@media screen and (max-width: 1224px) {
+@media screen and (max-width: 4in) {
 
 
     .container
