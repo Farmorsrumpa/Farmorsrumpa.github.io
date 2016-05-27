@@ -181,6 +181,11 @@ html{
     padding-left: 4px;
     text-align: center;
 }
+
+.mobilfix{
+    display: none;
+}
+
 @media screen and (max-width: 4in) {
 
 
@@ -204,5 +209,9 @@ html{
         height:100%;
 
     }
+    .mobilfix{
+        display: block;
+    }
+
 
 }
