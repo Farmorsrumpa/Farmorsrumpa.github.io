@@ -187,12 +187,15 @@ html{
     {
         height: 100%;
         background-color: lightgrey;
-
+        width: 713px;
     }
     aside{
         display: none;
     }
     #top{
         display: none;
+    }
+    nav{
+        width: 713px;;
     }
 }
