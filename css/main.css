@@ -188,4 +188,7 @@ html{
         background-color: lightgrey;
 
     }
+    aside{
+        display: none;
+    }
 }
