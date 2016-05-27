@@ -181,7 +181,7 @@ html{
     padding-left: 4px;
     text-align: center;
 }
-@media handheld {
+@media(device-width: 4in) {
     .container
     {
         height: 100%;
