@@ -11,10 +11,16 @@
     height: 50%;
     width: 50%;
     padding-left: 4px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 
 }
 .divklass h2
 {
     padding-left: 4px;
 }
-
+.divklass p
+{
+    text-align: center;
+}
