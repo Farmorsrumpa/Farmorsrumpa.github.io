@@ -218,6 +218,11 @@ footer p {
     .mobilfix{
         display: block;
     }
+    .mobilfix .kartdiv {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
     .mobilfix .kartdiv .karta2{
         width: 50%;
         height: 50%;
