@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Pizza Hatt</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/unslider.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css"><!--Här länkar jag till min almänna css-fil som gäller alla sidor-->
+    <link rel="stylesheet" href="css/unslider.css"> <!--Här länkar jag unslider css:en till min karusell-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><!--Här länkar jag in min Font-->
     <!--<link rel="stylesheet" href="css/unslider-dots.css">-->
-    <link rel="stylesheet" href="css/kontaktcss.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/kontaktcss.css"><!--Här länkar jag in css filen som är just för den här sidan-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"><!--Kod som hjälper till att bestämma skärmstorleken, behövs i media queries!-->
 
 </head>
 <body>
-<div id="top">
+<div id="top"><!--Min ID för min header, som min slider ingår i-->
     <header class="container">
-        <div class="my-slider">
+        <div class="my-slider"><!--Slidern kommer från unslider.com-->
             <ul>
                 <li><img src="img/pizza1.jpg" alt="test"> </li>
                 <li><img src="img/pizza2.jpg" alt="test"> </li>
@@ -22,23 +22,23 @@
         </div>
     </header>
 </div>
-<div class="container">
+<div class="container"><!--En klass som ger sidan en fixerad bredd och plats i mitten på sidan-->
 
-    <nav>
-        <ul id="ulnav">
-            <li><a href="index.html">Hem</a></li>
+    <nav><!--Min Nav-bar-->
+        <ul id="ulnav"><!--Jag ger ul-taggen en id för att jag ska lättare komma åt den senare-->
+            <li><a href="index.html">Hem</a></li><!--Länkar till de olika sidorna osv...-->
             <li><a href="meny.html">Meny</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
             <li><a href="familj.html">För barn och familjer</a></li>
         </ul>
 
-        <img class="avatar" src="img/boy-512.png" alt="avatar">
-        <button class="loginbutton">Logga In</button>
+        <img class="avatar" src="img/boy-512.png" alt="avatar"><!--Min fejkade "login portal", som ska finnas, men det ingår inte i kursen att kunna-->
+        <button class="loginbutton">Logga In</button><!--Jag lade in en knapp, dock utan funktion för det ingår ej i kursen att skapa ett login system.-->
     </nav>
 
     <section>
         <article>
-            <div class="bryrom">
+            <div class="bryrom"><!--Här börjar sidans innehåll, detta varieras på de olika sidorna-->
             <h2>Vi bryr oss om våra kunder!</h2>
             <p>Vi på Pizza Hatt bryr oss om våra kunder, och din feedback är viktig för våran utveckling som företag.
             Nedanför ser du våran feedback-ruta, där du kan lämna ett meddelande om din upplevelse, eller eventuella frågor.
@@ -58,7 +58,8 @@
 
                 <button class="formbutton">Skicka</button>
             </form>
-            <div class="mobilfix">
+            <div class="mobilfix"><!--Denna div syns bara om man går in på sidan via en telefon eller en mindre skärm, för att kunna göra det lättare att navigera på sidan
+        . Den lägger sig precis under istället för jämte.-->
                 <div class="oppetider">
                     <h2>Öppettider</h2>
                     <h4>Mån-Fre: 09:00-23:00</h4>
@@ -76,25 +77,28 @@
 
 
     </section>
-    <aside>
+    <aside><!--Min aside som ligger till höger, jämte huvudinnehållet-->
         <div class="oppetider">
             <h2>Öppettider</h2>
             <h4>Mån-Fre: 09:00-23:00</h4>
             <h4>Lör: 09:00-01:00</h4>
             <h4>Sön: 10:00-22:00</h4>
         </div>
-        <div class="kartdiv">
+        <div class="kartdiv"><!-- div för att lättare komma åt kartan-->
             <h2 class="karta">Hitta närmaste resturang!</h2>
             <img class="karta2" src="img/World_map_2004_CIA_large_1.7m_whitespace_removed.jpg" alt="karta">
 
         </div>
 
     </aside>
+    <footer><!--Min footer som ligger längst ner på sidan-->
+        <p>Skapad av: Simon Joansson 2016</p>
+    </footer>
 </div>
 
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="js/unslider.js"></script>
-<script>
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script> <!--Mitt unslider script som gör så att slidern fungerar-->
+<script src="js/unslider.js"></script><!--Samma här-->
+<script><!--Denna ger mig möjlighet att ändra egenskaperna i slidern, såsom autoplay och utan navigering eller pilar-->
     jQuery(document).ready(function($) {
         $('.my-slider').unslider({
             arrows:false,
