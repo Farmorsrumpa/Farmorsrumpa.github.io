@@ -1,8 +1,9 @@
+/*Regler speciellt för index sidan, reglerna är till för innehållet*/
 input
 {
     margin: 5px;
 }
-form
+form /*Regler för min form*/
 {
     margin: 16px 150px 10px 150px;
     border-radius: 4px;
@@ -13,12 +14,10 @@ form
 }
 textarea
 {
-    resize: none;
+    resize: none; /*Gör så man inte kan ändra storlek på textarea*/
 }
 .formbutton
 {
-
-
     text-align: center;
 }
 .bryrom
