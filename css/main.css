@@ -254,5 +254,9 @@ footer p /*och texten i footer*/
     {
         display:none;
     }
+    .loginbutton
+    {
+        display: none;
+    }
 
 }
