@@ -185,6 +185,12 @@ html{
 .mobilfix{
     display: none;
 }
+footer{
+    width: 960px;
+}
+footer p {
+    margin-right: 0;
+}
 
 @media screen and (max-width: 4in) {
 
@@ -216,5 +222,7 @@ html{
         width: 50%;
         height: 50%;
     }
-
+    footer{
+        width: 713px;
+    }
 }
