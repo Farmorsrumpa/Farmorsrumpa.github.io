@@ -223,7 +223,6 @@ footer p {
         height: 50%;
     }
     footer{
-        width: 713px;
-        display: block;
+         display:none;
     }
 }
