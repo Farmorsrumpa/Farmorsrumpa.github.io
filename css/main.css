@@ -1,4 +1,5 @@
-body
+/*Det här är den almänna css-sidan som gäller på alla html*/
+body /*Regler för hela body*/
 {
     background-color: whitesmoke;
     margin:0px;
@@ -7,7 +8,7 @@ body
 
 
 }
-.container
+.container/*Regler för container div, detta lägger allt innehåll i mitten och med en bredd=960px*/
 {
     width: 960px;
     margin: 0 auto;
@@ -15,33 +16,34 @@ body
     background-color: lightgrey;
     margin-bottom: 15px;
 }
-header
+header /*Min header tag*/
 {
     width: 960px;
     height: 215px;
     background-color: yellow;
 }
-nav
+nav /*Min nav tag, med en bakgrundsfärg som är gul*/
 {
     width: 960px;
     height: 35px;
     background: #FFD638;
     border-radius: 5px;
 }
-li
+li /*regler för alla list element*/
 {
     display: inline-block;
     padding-right: 20px;
     padding-left: 20px;
 }
-ul{
+ul/*regler för hela listan*/
+{
     padding: 0px;
     margin: 0px;
     padding-top: 7px;
     float:left;
     display: inline-block;
 }
-aside
+aside /*regler för min aside, den är floatad till vänster*/
 {
     background-color: lightgray;
     float: left;
@@ -51,7 +53,7 @@ aside
 
 
 }
-section
+section /*regler för section. Här är huvudinnehållet, också floatad till vänster*/
 {
     float: left;
     width: 712px;
@@ -62,7 +64,7 @@ section
 
 
 }
-a
+a /*regler för alla länkar*/
 {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -72,7 +74,7 @@ a
 
     padding: 4px 9px 4px 8px;
 }
-a:hover
+a:hover /*regler som gäller för alla länkar när man håller musen över dem*/
 {
     color: #4C4F4C;
     background-color: #E8C333;
@@ -98,7 +100,7 @@ article
     padding: 0px;
     margin:0px;
 }
-p
+p /*almänna regler för all brödtext*/
 {
     font-family: 'Montserrat', sans-serif;
     color:black;
@@ -161,7 +163,8 @@ html{
     display: inline-block;
     height: 100%;
 }
-.clearfix:after {
+.clearfix:after /*Min clear tag, med regler provided by you*/
+{
     content: " ";
     visibility: hidden;
     display: block;
@@ -169,7 +172,8 @@ html{
     clear: both;
 
 }
-.divklass {
+.divklass /*regler för alla stycken, allt med rundade kanter och gul bakgrund*/
+{
     background-color: #FFD638;
     border-radius: 4px;
     margin-right: 4px;
@@ -182,61 +186,73 @@ html{
     text-align: center;
 }
 
-.mobilfix{
+.mobilfix /*min mobilfix tag, som bara syns om man är på en telefon eller telefon som är smalare än 4 tum, därför syns den inte på vanliga datorer*/
+{
     display: none;
 }
-footer{
+footer /*Regler för min footer*/
+{
     width: 960px;
 }
-footer p {
+footer p /*och texten i footer*/
+{
     margin-right: 0;
 }
 
-@media screen and (max-width: 4in) {
+@media screen and (max-width: 4in) /*Min media-querie, för mobila enheter, med en bredd som är under 4 tum (4in)*/
+{
 
 
-    .container
+    .container /*Här får sidan en ny bredd, som är smalare eftersom vi inte har någon aside i mobilversionen*/
     {
         height: 100%;
         background-color: lightgrey;
         width: 713px;
 
     }
-    aside{
+    aside/*Min aside försvinner på mobilversionen och ersätts med .mobilfix, som har samma innehåll bara att den placeras under istället för jämte.*/
+    {
         display: none;
     }
-    #top{
+    #top /*top försvinner, som innehåller slidern*/
+    {
         display: none;
     }
-    nav{
+    nav /*nav får också en annan bredd*/
+    {
         width: 713px;
     }
-    section{
+    section /*section får en ny höjd, 100%, för att slippa tomt utrymme på skärmen*/
+    {
         height:100%;
 
     }
-    .mobilfix{
+    .mobilfix /*regler som säger att min mobilfix tag ska komma fram*/
+    {
         display: block;
     }
-    .mobilfix .kartdiv {
+    .mobilfix .kartdiv /*nya regler som säger att kartan och öppetiderna ska sitta i mitten*/
+     {
         margin: 0 auto;
         text-align: center;
         display: block;
     }
-    .mobilfix .kartdiv .karta2{
+    .mobilfix .kartdiv .karta2 /*-!!-*/
+    {
         width: 50%;
         height: 50%;
     }
-    footer{
-         display:none;
-    }
-    .oppetider{
+
+    .oppetider /*-!!-*/
+    {
         display: block;
         margin: 0 auto;
         text-align: center;
 
     }
-    .avatar{
-        display: none;
+    footer /*footer visas ej, det blir bättre för mobilanpassning*/
+    {
+        display:none;
     }
+
 }
