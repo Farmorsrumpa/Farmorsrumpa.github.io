@@ -197,7 +197,16 @@ footer /*Regler för min footer*/
 footer p /*och texten i footer*/
 {
     margin-right: 0;
+    width: 960px;
+    padding: 6px 0px 6px 0px;
+
 }
+.kallor{
+    float: right;
+
+    padding: 0px;
+}
+
 
 @media screen and (max-width: 4in) /*Min media-querie, för mobila enheter, med en bredd som är under 4 tum (4in)*/
 {
