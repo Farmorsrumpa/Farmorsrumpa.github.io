@@ -224,5 +224,6 @@ footer p {
     }
     footer{
         width: 713px;
+        display: block;
     }
 }
