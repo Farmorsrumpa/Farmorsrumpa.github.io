@@ -197,14 +197,14 @@ footer /*Regler för min footer*/
 footer p /*och texten i footer*/
 {
     margin-right: 0;
-    width: 960px;
-    padding: 6px 0px 6px 0px;
+    width: 955px;
+    padding: 6px 0px 6px 5px;
 
 }
 .kallor{
     float: right;
-
     padding: 0px;
+    padding-right: 5px;
 }
 
 
